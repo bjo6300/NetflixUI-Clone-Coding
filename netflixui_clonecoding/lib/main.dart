@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:netflixui_clonecoding/widget/bottom_bar.dart';
 
 void main() {
   runApp(MyApp());
@@ -47,7 +48,7 @@ class _MyAppState extends State<MyApp> {
               ),
             ],
           ),
-          bottomNavigationBar: BottomAppBar(),
+          bottomNavigationBar: Bottom(),
         ),
       ),
     );
