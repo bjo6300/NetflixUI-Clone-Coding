@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:netflixui_clonecoding/screen/home_screen.dart';
 import 'package:netflixui_clonecoding/widget/bottom_bar.dart';
 
-void main() {
-  runApp(MyApp());
-}
+void main() => runApp(MyApp());
 
 class MyApp extends StatefulWidget {
   _MyAppState createState() => _MyAppState();
@@ -14,7 +13,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'BaeFlix',
+      title: 'Baeflix',
       theme: ThemeData(
         brightness: Brightness.dark,
         primaryColor: Colors.black,
@@ -26,11 +25,7 @@ class _MyAppState extends State<MyApp> {
           body: TabBarView(
             physics: NeverScrollableScrollPhysics(),
             children: <Widget>[
-              Container(
-                child: Center(
-                  child: Text('home'),
-                ),
-              ),
+              HomeScreen(),
               Container(
                 child: Center(
                   child: Text('search'),
