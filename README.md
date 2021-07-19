@@ -1,9 +1,9 @@
 # NetflixUI_Clone_Coding
 
-* Firebase + Flutter를 이용한 넷플릭스 UI 클론 코딩 from https://github.com/TaeBbong
+* NetflixUI Clone Coding using Firebase & Flutter(Dart) from https://github.com/TaeBbong
 
 * SDK : Flutter SDK 1.12.13+hotfix.8 
 
-  * 그 이상 버전은 CarouselSlider 사용법이 변경됐다.
+  * In the later version, the usage of CarouselSlider has been changed.
 
-* Flatbutton이 없어져서 Textbutton으로 변경
+*  __Flatbutton__ disappeared and change to __Textbutton__
