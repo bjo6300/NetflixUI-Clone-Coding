@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:netflixui_clonecoding/screen/home_screen.dart';
+import 'package:netflixui_clonecoding/screen/like_screen.dart';
 import 'package:netflixui_clonecoding/screen/more_screen.dart';
 import 'package:netflixui_clonecoding/screen/search_screen.dart';
 import 'package:netflixui_clonecoding/widget/bottom_bar.dart';
@@ -29,11 +30,7 @@ class _MyAppState extends State<MyApp> {
             children: <Widget>[
               HomeScreen(),
               SearchScreen(),
-              Container(
-                child: Center(
-                  child: Text('save'),
-                ),
-              ),
+              LikeScreen(),
               MoreScreen(),
             ],
           ),
