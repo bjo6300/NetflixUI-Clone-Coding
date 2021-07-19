@@ -25,6 +25,17 @@ dependencies:
     sdk: flutter
   # carousel_slider 패키지 설치
   carousel_slider:
+  flutter_linkify:
+  url_launcher:
+  
+  # Add the dependency for the FlutterFire plugin for Google Analytics
+  firebase_analytics: ^5.0.2
+
+  # Add the dependencies for any other Firebase products you want to use in your app
+  # For example, to use Firebase Authentication and Cloud Firestore
+  firebase_auth: ^0.14.0+5
+  cloud_firestore:
+  
     
 
 
