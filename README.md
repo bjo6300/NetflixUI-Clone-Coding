@@ -1,6 +1,6 @@
 # NetflixUI_Clone_Coding
 
-* NetflixUI Clone Coding using Firebase & Flutter(Dart) from https://github.com/TaeBbong
+* NetflixUI Clone Coding using __Firebase & Flutter(Dart)__ from https://github.com/TaeBbong
 
 * SDK : Flutter SDK 1.12.13+hotfix.8 
 
